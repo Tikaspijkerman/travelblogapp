@@ -1,0 +1,76 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1508841220-87fbee1b4767?auto=format&fit=crop&w=1525&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  font-size: 1.7em;
+  opacity: .7;
+  color: black;
+  font-family: 'Handlee', cursive;
+  letter-spacing: 1.5px;
+  font-variant: small-caps;
+  text-shadow: 1px 2px grey;
+}
+
+.info{
+  opacity: .6;
+  margin-top: -50px;
+  padding-bottom: 40px;
+}
+
+.newblogpage{
+  font-family: 'Handlee', cursive;
+  font-variant: small-caps;
+  font-size: 4em;
+  color: grey;
+  text-shadow: 1px 1px lightgrey;
+}
+
+#bigger{
+  font-size: 1.5em;
+}
+
+#headTitle{
+ font-family: 'Amatic SC', cursive;
+  font-size: 8em;
+  opacity: .7;
+  color: white;
+  padding-bottom: 50px;
+  text-shadow: 1px 1px lightgrey;
+  letter-spacing: 3px;
+}
+
+.headerstyle{
+  letter-spacing: 1.5px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.6em;
+  opacity: .9;
+}
+
+item.pink{
+  background-color: #ffd3f8;
+}
+
+.landpage{
+  opacity: .8;
+  border: lightgrey solid 4px;
+}
+
+i.icon {
+  font-size: 2em;
+}
+
+img{
+  width: 600px;
+  height: 400px;
+}
+
+.container.main{
+  margin-top: 7em;
+}
+
+#delete{
+  display: inline;
+}
