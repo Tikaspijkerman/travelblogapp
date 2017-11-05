@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride("_method"));
 app.use(expressSanitizer());
 
-mongoose.connect("mongodb://tikaspijkerman:maybe678@ds249025.mlab.com:49025/blogapp", {useMongoClient: true});
+mongoose.connect("mongodb://localhost/blogapp", {useMongoClient: true});
 mongoose.Promise = global.Promise;
 
 var blogAppSchema = new mongoose.Schema({
