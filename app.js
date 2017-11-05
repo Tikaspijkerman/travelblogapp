@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride("_method"));
 app.use(expressSanitizer());
 
-mongoose.connect("mongodb://localhost/blogapp", {useMongoClient: true});
+mongoose.connect("mongodb://tikaspijkerman:maybe678@ds249025.mlab.com:49025/blogapp", {useMongoClient: true});
 mongoose.Promise = global.Promise;
 
 var blogAppSchema = new mongoose.Schema({
@@ -111,6 +111,6 @@ app.delete("/blogs/:id", function(req, res){
   });
 });
 
-app.listen(3000, "127.0.0.1", function(){
-    console.log("SERVER HAS STARTED");
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
 });
