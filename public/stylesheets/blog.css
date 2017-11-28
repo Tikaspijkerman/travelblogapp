@@ -1,11 +1,11 @@
 body {
   background-image: url("https://images.unsplash.com/photo-1508841220-87fbee1b4767?auto=format&fit=crop&w=1525&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-  webkit-background-size: cover;
-  moz-background-size: cover;
-  o-background-size: cover;
-  background-size: cover;
 }
 
 h2{
