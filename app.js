@@ -31,6 +31,7 @@ app.get("/", function(req, res){
     res.redirect("/blogs");
 });
 
+
 //NEW route
 app.get("/blogs/new", function(req, res){
   res.render("new");
